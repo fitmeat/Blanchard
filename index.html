@@ -16,13 +16,16 @@
     <header class="header">
         <div class="container header__container flex">
             <a class="header__logo" href="#">
-                <img src="img/logo.svg" alt="Logo">
+                <picture>
+                    <source srcset="img/logo320.svg" media="(max-width: 767px)">
+                    <img src="img/logo.svg" alt="Logo">
+                </picture>
             </a>
             <nav class="header__nav flex">
                 <ul class="nav__list list__reset flex">
                     <li class="nav__item">
                         <a class="nav__item__link" href="#">
-                            О нас
+                            О&nbsp;нас
                         </a>
                     </li>
                     <li class="nav__item">
@@ -104,7 +107,7 @@
         </section>
 
         <section class="gallery">
-            <div class="container flex">
+            <div class="container gallery__container flex">
                 <div class="gallery__left">
                     <h2 class="section__title gallery__title">
                         Галерея
@@ -123,9 +126,24 @@
                     </div>
                 </div>
                 <div class="gallery__images">
-                    <img class="gallery__img__1" src="img/gallery1.png" aria-hidden="true">
-                    <img class="gallery__img__2" src="img/gallery2.png" aria-hidden="true">
-                    <img class="gallery__img__3" src="img/gallery3.png" aria-hidden="true">
+                    <picture>
+                        <source srcset="img/gallery-1-320.png" media="(max-width: 767px)">
+                        <source srcset="img/gallery-1-768.png" media="(max-width: 1023px)">
+                        <source srcset="img/gallery-1-1024.png" media="(max-width: 1200px)">
+                        <img class="gallery__img__1" src="img/gallery1.png" aria-hidden="true">
+                    </picture>
+                    <picture>
+                        <source srcset="img/gallery-2-320.png" media="(max-width: 767px)">
+                        <source srcset="img/gallery-2-768.png" media="(max-width: 1023px)">
+                        <source srcset="img/gallery-2-1024.png" media="(max-width: 1200px)">
+                        <img class="gallery__img__2" src="img/gallery2.png" aria-hidden="true">
+                    </picture>
+                    <picture>
+                        <source srcset="img/gallery-3-320.png" media="(max-width: 767px)">
+                        <source srcset="img/gallery-3-768.png" media="(max-width: 1023px)">
+                        <source srcset="img/gallery-3-1024.png" media="(max-width: 1200px)">
+                        <img class="gallery__img__3" src="img/gallery3.png" aria-hidden="true">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -144,7 +162,11 @@
                 </p>
                 <div class="catalog__figures">
                     <figure class="catalog__figure">
-                        <img class="figure__img" src="img/catalog1.png" alt="">
+                        <picture>
+                            <source srcset="img/catalog-1-768.png" media="(max-width: 1023px)">
+                            <source srcset="img/catalog-1-1024.png" media="(max-width: 1200px)">
+                            <img class="figure__img" src="img/catalog1.png" alt="">
+                        </picture>
                         <figcaption class="catalog__figcaption">
                             <h3 class="figure__title">
                                 Доменико Гирландайо
@@ -163,7 +185,11 @@
                         </figcaption>
                     </figure>
                     <figure class="catalog__figure">
-                        <img class="figure__img" src="img/catalog2.png" alt="">
+                        <picture>
+                            <source srcset="img/catalog-2-768.png" media="(max-width: 1023px)">
+                            <source srcset="img/catalog-2-1024.png" media="(max-width: 1200px)">
+                            <img class="figure__img" src="img/catalog2.png" alt="">
+                        </picture>
                         <figcaption class="catalog__figcaption">
                             <h3 class="figure__title">
                                 Андреа дель Верроккьо
@@ -182,7 +208,11 @@
                         </figcaption>
                     </figure>
                     <figure class="catalog__figure">
-                        <img class="figure__img" src="img/catalog3.png" alt="">
+                        <picture>
+                            <source srcset="img/catalog-3-768.png" media="(max-width: 1023px)">
+                            <source srcset="img/catalog-3-1024.png" media="(max-width: 1200px)">
+                            <img class="figure__img" src="img/catalog3.png" alt="">
+                        </picture>
                         <figcaption class="catalog__figcaption">
                             <h3 class="figure__title">
                                 Лоренцо ди&nbsp;Креди
@@ -292,8 +322,14 @@
                     Партнёры проектов:
                 </h3>
                 <div class="projects__partners__images">
-                    <img class="projects__partners__img" src="img/partner1.svg" alt="Freelands Foundation">
-                    <img class="projects__partners__img" src="img/partner2.svg" alt="Institute for Contemporary Art">
+                    <picture class="projects__partners__picture">
+                        <source srcset="img/partners-1-320.png" media="(max-width: 767px)">
+                        <img class="projects__partners__img" src="img/partner1.svg" alt="Freelands Foundation">
+                    </picture>
+                    <picture>
+                        <source srcset="img/partners-2-320.png" media="(max-width: 767px)">
+                        <img class="projects__partners__img" src="img/partner2.svg" alt="Institute for Contemporary Art">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -315,7 +351,7 @@
                         <input class="contacts__input" type="text" name="name" placeholder="Имя" required>
                         <input class="contacts__input" type="tel" name="phone" placeholder="Телефон" required>
                         <button class="contacts__form__btn btn__reset">
-                            Заказать обратный звонок
+                            Заказать <span class="contacts__span">обратный звонок</span>
                         </button>
                     </form>
                 </div>
@@ -357,7 +393,10 @@
     <footer class="footer">
         <div class="container footer__container flex">
             <a class="footer__logo" href="#">
-                <img src="img/logo.svg" alt="Logo">
+                <picture>
+                    <source srcset="img/logo320.svg" media="(max-width: 767px)">
+                    <img src="img/logo.svg" alt="Logo">
+                </picture>
             </a>
             <div class="footer__social">
                 <a class="footer__social__link" href="#">
