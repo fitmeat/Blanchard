@@ -588,6 +588,10 @@
     margin-bottom: 12px;
   }
 
+  .projects__partners__picture:first-child {
+    margin-right: 0;
+}
+
   .contacts {
     padding-top: 43px;
     padding-bottom: 47px;
