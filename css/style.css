@@ -63,13 +63,13 @@ body {
 }
 
 /* global */
-.list-reset {
+.list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.btn-reset {
+.btn {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -87,7 +87,7 @@ body {
   margin: 0 auto;
 }
 
-.section-title {
+.title {
   margin: 0;
   color: #333;
   font-size: 48px;
@@ -95,7 +95,7 @@ body {
   line-height: normal;
 }
 
-.section-descr {
+.descr {
   margin: 0;
   color: #333;
   font-size: 16px;
