@@ -10,11 +10,11 @@
     padding: 0 15px;
   }
 
-  .header__nav__list {
+  .nav__list {
     gap: 50px;
   }
 
-  .header__nav__item:last-child {
+  .nav__item:last-child {
     margin-right: 245px;
   }
 
@@ -57,11 +57,11 @@
     margin-bottom: 22px;
   }
 
-  .header__nav__item:last-child {
+  .nav__item:last-child {
     margin-right: 0;
   }
 
-  .header__nav__list {
+  .nav__list {
     width: 100%;
     gap: 96px;
   }
@@ -165,7 +165,7 @@
     padding-top: 71px;
   }
 
-  .event__list__item:not(:last-child) {
+  .event__item:not(:last-child) {
     margin-right: 25px;
   }
 
@@ -253,7 +253,7 @@
 }
 
 @media (max-width: 1023px) {
-  .header__nav__list {
+  .nav__list {
     gap: 44px;
   }
 
@@ -301,7 +301,7 @@
     background-image: url(../img/event-3-768.jpg);
   }
 
-  .event__list__item:not(:last-child) {
+  .event__item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 30px;
   }
@@ -389,16 +389,16 @@
     margin-bottom: 6px;
   }
 
-  .header__nav__item__link {
+  .nav__item__link {
     font-size: 12px;
     font-weight: 700;
   }
 
-  .header__header__nav {
+  .header__nav {
     max-width: 100%;
   }
 
-  .header__nav__list {
+  .nav__list {
     overflow-x: scroll;
     gap: 22px;
   }
@@ -538,7 +538,7 @@
     max-width: 244px;
   }
 
-  .event__list__item:not(:last-child) {
+  .event__item:not(:last-child) {
     margin-bottom: 17px;
   }
 
