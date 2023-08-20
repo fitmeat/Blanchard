@@ -130,7 +130,7 @@ body {
   margin-right: 296px;
 }
 
-.nav__item__link {
+.nav__link {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -140,16 +140,16 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
-.nav__item .nav__item__link:focus {
+.nav__item .nav__link:focus {
   background: #7943A4;
   border-color: transparent;
 }
 
-.nav__item__link:hover {
+.nav__link:hover {
   color: #C283F3;
 }
 
-.nav__item .nav__item__link:active {
+.nav__item .nav__link:active {
   color: #7943A4;
   background-color: unset;
 }
@@ -161,15 +161,15 @@ body {
   transition: fill 0.3s ease-in-out;
 }
 
-.header__search__btn:focus .header__search__svg {
+.nav__search:focus .header__search__svg {
   background-color: rgba(121, 67, 164, 1);
 }
 
-.header__search__btn:hover .header__search__svg {
+.nav__search:hover .header__search__svg {
   fill: rgba(194, 131, 243, 1);
 }
 
-.header__search__btn:active .header__search__svg {
+.nav__search:active .header__search__svg {
   fill: rgba(157, 92, 208, 1);
   background-color: unset;
 }

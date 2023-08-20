@@ -47,7 +47,7 @@
     flex-direction: column;
   }
 
-  .header__search__btn {
+  .nav__search {
     position: absolute;
     top: 39px;
     right: 50px
@@ -376,7 +376,7 @@
     padding-bottom: 12px;
   }
 
-  .header__search__btn {
+  .nav__search {
     top: 12px;
     right: 10px;
   }
@@ -389,7 +389,7 @@
     margin-bottom: 6px;
   }
 
-  .nav__item__link {
+  .nav__link {
     font-size: 12px;
     font-weight: 700;
   }
