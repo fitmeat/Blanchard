@@ -54,8 +54,8 @@
             </a>
           </li>
         </ul>
-        <button class="nav__search btn" aria-label="Кнопка поиска">
-          <svg class="nav__search__svg" width="28" height="28" viewBox="0 0 28 28" fill="none"
+        <button class="nav__btn btn" aria-label="Кнопка поиска">
+          <svg class="nav__svg" width="28" height="28" viewBox="0 0 28 28" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <rect width="8.79564" height="2.19891"
               transform="matrix(-0.711314 0.702874 0.711314 0.702874 6.25647 20.2722)" />
@@ -70,7 +70,7 @@
     <section class="hero">
       <div class="container">
         <div class="hero__content">
-          <h1 class="hero__title">
+          <h1 class="main__title">
             Прикоснитесь к&nbsp;прекрасному
           </h1>
           <p class="hero__descr">
@@ -112,17 +112,17 @@
           <h2 class="title gallery__title">
             Галерея
           </h2>
-          <div class="gallery__form__radio" role="radio" tabindex="0" aria-checked="true">
+          <div class="gallery__form" role="radio" tabindex="0" aria-checked="true">
             <input class="gallery__input" id="radio1" type="radio" value="XIX centry" name="period">
-            <label class="gallery__form__label" for="radio1">XIX век</label>
+            <label class="gallery__label" for="radio1">XIX век</label>
           </div>
-          <div class="gallery__form__radio" role="radio" tabindex="0" aria-checked="true">
+          <div class="gallery__form" role="radio" tabindex="0" aria-checked="true">
             <input class="gallery__input" id="radio2" type="radio" value="XX centry" name="period" checked>
-            <label class="gallery__form__label" for="radio2">XX век</label>
+            <label class="gallery__label" for="radio2">XX век</label>
           </div>
-          <div class="gallery__form__radio" role="radio" tabindex="0" aria-checked="true">
+          <div class="gallery__form" role="radio" tabindex="0" aria-checked="true">
             <input class="gallery__input" id="radio3" type="radio" value="Modernity" name="period">
-            <label class="gallery__form__label" for="radio3">Современность</label>
+            <label class="gallery__label" for="radio3">Современность</label>
           </div>
         </div>
         <div class="gallery__images">
@@ -130,19 +130,19 @@
             <source srcset="img/gallery-1-320.png" media="(max-width: 767px)">
             <source srcset="img/gallery-1-768.png" media="(max-width: 1023px)">
             <source srcset="img/gallery-1-1024.png" media="(max-width: 1200px)">
-            <img class="gallery__img__1" src="img/gallery1.png" alt="Изображение картины" aria-hidden="true">
+            <img class="gallery__img__1" src="img/gallery1.png" alt="Изображение картины">
           </picture>
           <picture>
             <source srcset="img/gallery-2-320.png" media="(max-width: 767px)">
             <source srcset="img/gallery-2-768.png" media="(max-width: 1023px)">
             <source srcset="img/gallery-2-1024.png" media="(max-width: 1200px)">
-            <img class="gallery__img__2" src="img/gallery2.png" alt="Изображение картины" aria-hidden="true">
+            <img class="gallery__img__2" src="img/gallery2.png" alt="Изображение картины">
           </picture>
           <picture>
             <source srcset="img/gallery-3-320.png" media="(max-width: 767px)">
             <source srcset="img/gallery-3-768.png" media="(max-width: 1023px)">
             <source srcset="img/gallery-3-1024.png" media="(max-width: 1200px)">
-            <img class="gallery__img__3" src="img/gallery3.png" alt="Изображение картины" aria-hidden="true">
+            <img class="gallery__img__3" src="img/gallery3.png" alt="Изображение картины">
           </picture>
         </div>
       </div>
@@ -164,15 +164,15 @@
           <picture>
             <source srcset="img/catalog-1-768.png" media="(max-width: 1023px)">
             <source srcset="img/catalog-1-1024.png" media="(max-width: 1200px)">
-            <img class="catalog__figure__img" src="img/catalog1.png" alt="">
+            <img class="catalog__img" src="img/catalog1.png" alt="Доменико Гирландайо">
           </picture>
           <figcaption class="catalog__figcaption">
             <h3 class="catalog__figure__title">
               Доменико Гирландайо
             </h3>
-            <small class="catalog__figure__time">
+            <time class="catalog__figure__time">
               2&nbsp;июня 1448&ndash;11 января 1494
-            </small>
+            </time>
             <p class="catalog__figure__descr descr">
               Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной
               династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо. Глава художественной
@@ -187,15 +187,15 @@
           <picture>
             <source srcset="img/catalog-2-768.png" media="(max-width: 1023px)">
             <source srcset="img/catalog-2-1024.png" media="(max-width: 1200px)">
-            <img class="catalog__figure__img" src="img/catalog2.png" alt="">
+            <img class="catalog__img" src="img/catalog2.png" alt="Андреа дель Верроккьо">
           </picture>
           <figcaption class="catalog__figcaption">
             <h3 class="catalog__figure__title">
               Андреа дель Верроккьо
             </h3>
-            <small class="catalog__figure__time">
+            <time class="catalog__figure__time">
               1435&ndash;10 октября 1488
-            </small>
+            </time>
             <p class="catalog__figure__descr descr">
               Творческий путь молодого Андреа, как и&nbsp;многих знаменитых художников
               и&nbsp;скульпторов эпохи Возрождения, начался с&nbsp;обучения и&nbsp;работы в&nbsp;одной
@@ -210,15 +210,15 @@
           <picture>
             <source srcset="img/catalog-3-768.png" media="(max-width: 1023px)">
             <source srcset="img/catalog-3-1024.png" media="(max-width: 1200px)">
-            <img class="catalog__figure__img" src="img/catalog3.png" alt="">
+            <img class="catalog__img" src="img/catalog3.png" alt="Лоренцо ди&nbsp;Креди">
           </picture>
           <figcaption class="catalog__figcaption">
             <h3 class="catalog__figure__title">
               Лоренцо ди&nbsp;Креди
             </h3>
-            <small class="catalog__figure__time">
+            <time class="catalog__figure__time">
               1459&ndash;12 января 1537
-            </small>
+            </time>
             <p class="catalog__figure__descr descr">
               Один из ведущих флорентийских художников Кватроченто, основатель художественной
               династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной
@@ -239,58 +239,79 @@
         </h2>
         <ul class="event__list list flex">
           <li class="event__item">
-            <div class="event__item__bg event__bg__1"></div>
+            <div class="event__picture">
+              <picture>
+                <source srcset="img/event-1-1024.jpg" media="(max-width: 767px)">
+                <source srcset="img/event-1-768.jpg" media="(max-width: 1023px)">
+                <source srcset="img/event-1-1024.jpg" media="(max-width: 1200px)">
+                <img src="img/event1.jpg" alt="Книжная гравюра">
+              </picture>
+            </div>
             <div class="event__item__wrapper">
-              <small class="event__item__small__text">
+              <small class="event__small">
                 Музей им. Щусева<br>
                 с&nbsp;20&nbsp;марта по&nbsp;30&nbsp;апреля
               </small>
               <h3 class="event__item__title">
                 Книжная гравюра<br>в живом восприятии
               </h3>
-              <p class="event__item__descr descr" id="event__item__descr__1">
+              <p class="event__item__descr descr" data-margin="66">
                 Один из&nbsp;ведущих флорентийских художников Кватроченто, основатель художественной
                 династии, которую продолжили его брат Давид и&nbsp;сын Ридольфо
               </p>
-              <button class="event__item__btn btn">
+              <button class="event__btn btn">
                 Подробнее
               </button>
             </div>
           </li>
           <li class="event__item">
-            <div class="event__item__bg event__bg__2"></div>
+            <div class="event__picture">
+              <picture>
+                <source srcset="img/event-2-1024.jpg" media="(max-width: 767px)">
+                <source srcset="img/event-2-768.jpg" media="(max-width: 1023px)">
+                <source srcset="img/event-2-1024.jpg" media="(max-width: 1200px)">
+                <img src="img/event2.jpg" alt="Открытая дискуссия">
+              </picture>
+            </div>
             <div class="event__item__wrapper">
-              <small class="event__item__small__text">
+              <small class="event__small">
                 ММОМА<br>
                 24&nbsp;марта 19:00
               </small>
               <h3 class="event__item__title">
                 &laquo;Открытая дискуссия&raquo;. Дмитрий Петров и&nbsp;Сергей Ильин.
               </h3>
-              <p class="event__item__descr descr" id="event__item__descr__2">
+              <p class="event__item__descr descr" data-margin="65">
                 Высокий уровень вовлечения представителей целевой аудитории является чётким
                 доказательством простого факта
               </p>
-              <button class="event__item__btn btn">
+              <button class="event__btn btn">
                 Подробнее
               </button>
             </div>
           </li>
           <li class="event__item">
-            <div class="event__item__bg event__bg__3"></div>
+            <div class="event__picture">
+              <picture>
+                <source srcset="img/event-3-1024.jpg" media="(max-width: 767px)">
+                <source srcset="img/event-3-768.jpg" media="(max-width: 1023px)">
+                <source srcset="img/event-3-1024.jpg" media="(max-width: 1200px)">
+                <img src="img/event3.jpg" alt="Выставка &laquo;Формация 2020&raquo;">
+              </picture>
+            </div>
             <div class="event__item__wrapper">
-              <small class="event__item__small__text">
+              <small class="event__small">
                 Еврейский музей<br>
                 с&nbsp;31&nbsp;марта по&nbsp;21&nbsp;апреля
               </small>
               <h3 class="event__item__title">
                 Выставка &laquo;Формация 2020&raquo;
               </h3>
-              <p class="event__item__descr descr" id="event__item__descr__3">
+              <p class="event__item__descr descr" data-margin="98">
                 Идейные соображения высшего порядка, а&nbsp;также современная методология разработки
                 играет важную роль в&nbsp;формировании глубокомысленных рассуждений
               </p>
-              <button class="event__item__btn btn">
+              <button class="event__btn btn">
                 Подробнее
               </button>
             </div>
