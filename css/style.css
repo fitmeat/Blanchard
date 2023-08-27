@@ -87,6 +87,11 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .section-title {
   margin: 0;
   color: #333;
