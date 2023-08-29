@@ -221,7 +221,7 @@
     margin-bottom: 10px;
   }
 
-  .address__text {
+  .contacts__text {
     margin-bottom: 20px;
     font-size: 14px;
   }
@@ -383,7 +383,7 @@
     padding-bottom: 46px;
   }
 
-  .main__title {
+  .hero__title {
     margin-bottom: 10px;
     font-size: 32px;
     line-height: 28px;
@@ -579,7 +579,7 @@
     line-height: normal;
   }
 
-  .address__text {
+  .contacts__text {
     margin-bottom: 6px;
   }
 

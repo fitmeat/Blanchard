@@ -206,7 +206,7 @@ body {
   padding-bottom: 146px;
 }
 
-.main__title {
+.hero__title {
   margin: 0;
   margin-bottom: 20px;
   color: #FFF;
@@ -598,7 +598,7 @@ body {
   line-height: 32px;
 }
 
-.address__text {
+.contacts__text {
   margin: 0;
   color: #333;
   font-size: 16px;
