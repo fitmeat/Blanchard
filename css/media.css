@@ -93,14 +93,14 @@
     margin-bottom: 16px;
   }
 
-  .gallery__img__1,
-  .gallery__img__2,
-  .gallery__img__3 {
+  .images__1,
+  .images__2,
+  .images__3 {
     margin-right: 0;
   }
 
-  .gallery__img__1,
-  .gallery__img__2 {
+  .images__1,
+  .images__2 {
     margin-right: 50px;
   }
 
@@ -453,8 +453,8 @@
     flex-direction: column;
   }
 
-  .gallery__img__1,
-  .gallery__img__2 {
+  .images__1,
+  .images__2 {
     margin-right: 0;
     margin-bottom: 30px;
   }

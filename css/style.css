@@ -82,11 +82,6 @@ body {
   display: flex;
 }
 
-.flex {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 .container {
   max-width: 1600px;
   margin: 0 auto;
@@ -298,8 +293,8 @@ body {
   padding-top: 85px;
 }
 
-.gallery__img__1,
-.gallery__img__2 {
+.images__1,
+.images__2 {
   margin-right: 50px;
 }
 
@@ -402,8 +397,8 @@ body {
   margin-bottom: 0;
 }
 
-.figure__img {
-  margin-right: 126px;
+.figure__picture {
+  margin-right: 50px;
 }
 
 .figure__title {
@@ -526,6 +521,7 @@ body {
 .item__btn:focus {
   color: #FFF;
   background: #9D5CD0;
+  outline: none;
 }
 
 .item__btn:focus::after {
@@ -692,14 +688,14 @@ body {
   font-weight: 700;
   line-height: normal;
   -webkit-transition: outline 0.3s ease-in-out,
-    background 0.3s ease-in-out,
+    background-color 0.3s ease-in-out,
     color 0.3s ease-in-out;
   -o-transition: outline 0.3s ease-in-out,
-    background 0.3s ease-in-out,
+    background-color 0.3s ease-in-out,
     color 0.3s ease-in-out;
-  transition: outline 0.3s ease-in-out,
-    background 0.3s ease-in-out,
-    color 0.3s ease-in-out;
+  transition: outline 0.5s ease-in-out,
+    background-color 0.5s ease-in-out,
+    color 0.5s ease-in-out;
 }
 
 .contacts__btn:focus {
@@ -708,13 +704,13 @@ body {
 }
 
 .contacts__btn:hover {
-  background: #9D5CD0;
+  background-color: #9D5CD0;
   color: #FFF;
 }
 
 .contacts__btn:active {
   outline: 3px solid #D1A9F0;
-  background: #7943A4;
+  background-color: #7943A4;
   color: #FFF;
   outline-offset: 0;
 }
