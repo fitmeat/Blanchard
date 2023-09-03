@@ -103,6 +103,12 @@ body {
   line-height: 32px;
 }
 
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 /* header */
 .header {
   padding-top: 30px;
