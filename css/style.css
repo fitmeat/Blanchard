@@ -234,15 +234,9 @@ body {
   line-height: normal;
   border-radius: 100px;
   background: #9D5CD0;
-  -webkit-transition: outline 0.3s ease-in-out,
-    background 0.3s ease-in-out,
-    outline-offset 0.3s ease-in-out;
-  -o-transition: outline 0.3s ease-in-out,
-    background 0.3s ease-in-out,
-    outline-offset 0.3s ease-in-out;
-  transition: outline 0.3s ease-in-out,
-    background 0.3s ease-in-out,
-    outline-offset 0.3s ease-in-out;
+  transition: outline 0.2s ease-in-out,
+  background 0.2s ease-in-out,
+  outline-offset 0.2s ease-in-out;
 }
 
 .hero__btn:focus {
@@ -508,7 +502,7 @@ body {
     background 0.3s ease-in-out;
   transition: color 0.3s ease-in-out,
     background 0.3s ease-in-out;
-}
+  }
 
 .item__btn::after {
   content: "";
@@ -524,9 +518,23 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-.item__btn:focus {
+.item__btn::before {
+  content: "Подробнее";
   color: #FFF;
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 104px;
+  height: 35px;
   background: #9D5CD0;
+  opacity: 0;
+}
+
+.item__btn:focus::before {
+  opacity: 1;
+}
+
+.item__btn:focus {
   outline: none;
 }
 
