@@ -440,6 +440,7 @@
   .gallery {
     padding-top: 48px;
     background-image: url(../img/gallery-bg320.jpg);
+    background-size: 100%;
   }
 
   .gallery__title {
