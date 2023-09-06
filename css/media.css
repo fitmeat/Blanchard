@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1650px) {
   .container {
     padding: 0 15px;
   }
@@ -19,6 +19,7 @@
   }
 
   .hero__content {
+    padding-top: 60px;
     padding-bottom: 41px;
   }
 
@@ -33,9 +34,9 @@
   .contacts__btn {
     margin-top: 20px;
   }
-}
+} */
 
-@media (max-width: 1200px) {
+@media (max-width: 1700px) {
   .container {
     padding: 0 50px;
   }
@@ -145,8 +146,8 @@
   }
 
   .item__picture {
-    max-width: 290px;
-    min-height: 200px;
+    /* max-width: 290px; */
+    min-height: 180px;
   }
 
   .event {
@@ -273,7 +274,7 @@
   }
 
   .item__picture {
-    max-width: 668px;
+    max-width: 1023px;
   }
 
   .event__item:not(:last-child) {
@@ -440,7 +441,7 @@
   .gallery {
     padding-top: 48px;
     background-image: url(../img/gallery-bg320.jpg);
-    background-size: 100%;
+
   }
 
   .gallery__title {
