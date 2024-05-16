@@ -543,7 +543,7 @@
   }
 
   .item__descr {
-    min-width: 244px;
+    width: 244px;
   }
 
   .event__item:not(:last-child) {
